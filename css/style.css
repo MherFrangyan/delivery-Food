@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    /*dasavorum e verevic ev nekevic havasar, bolor bloknery mi gci vra en gtnvum*/
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 35px;
+}
+
+.header .address-input {
+    flex: 0.8;
+    /*Azat taracqi 80%-n e zbaxecnum  ays hatkutyuny nuynna inch bootstrapi col-ery*/
+    background: url(../img/Vector.svg) no-repeat left 11px center;
+    /*bereum e dzax 11px*/
+
+}
+
+.input-search {
+    height: 34px;
+    width: 300px;
+    background: url(../img/search.svg) no-repeat left 11px center;
+    margin-left: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button-primery {
+    margin-right: 10px;
+    background: #1890FF;
+    border: 1px solid #1890FF;
+    color: white;
+}
+
+.button-icon {
+    margin-right: 6px;
+}
+
+.button-card-text {
+    margin-right: 10px;
+}
+
+.promo {
+    padding: 68px 70px;
+    box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+    background: #FFF1B8 url(../img/promo-img.png) no-repeat top -150px right -200px/ 700px;
+    border-radius: 10px;
+    margin-bottom: 56px;
+}
+
+.promo-title {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+
+}
+
+.promo-text {
+    font-style: normal;
+    font-weight: normal;
+    max-width: 538px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+}
+
+.section-heading {
+    margin-bottom: 44px;
+    align-items: center;
+    display: flex;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*Ays hatkutyuny cardery tanum e myus tox ete chen texavorvum mi toxi vra*/
+}
+
+.card {
+    min-height: 450px;
+    text-decoration: none;
+    flex-basis: 31%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.card-imge {
+    width: 384px;
+    max-width: 100%;
+    object-fit: cover;
+    /*Ays hatkutyuny nman e bg-size cover hatkutyany bayc img-i hamar */
+}
+.card-text {
+    padding: 20px 23px 35px;
+}
+
+.card-heading {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.card-title-reg {
+    height: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.cardt-tag {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    background: #262626;
+    border-radius: 2px;
+    color: white;
+    padding: 1px 8px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.card-price-bold {
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.rating {
+    margin-right: 26px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+
+.category {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+
+.price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+    margin-right: 10px;
+}
+
+.ingredients {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8C8C;
+}
+
+.price::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #8c8c8c;
+    display: inline-block;
+    vertical-align: 3px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.card-star {
+    margin-right: 8px;
+}
+
+.main {
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
+.footer {
+    padding: 68px 0px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    margin-right: auto;
+    margin-left: 35px;
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+    color: #595959;
+    text-decoration: none;
+}
+
+.footer-link:not(:last-child) {
+    margin-right: 15px;
+    /*Ays psevdo elementy nhsanakum e bolory unenan margin-right 15px baci verji elementic*/
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 21px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.is-open{
+    display: flex;
+}
+.modal-dialog{
+    width: 95%;
+    max-width: 780px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    padding: 40px 45px;
+}
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.modal-body{
+    margin-bottom: 52px;
+}
+.modal-title{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.close{
+    border: none;
+    font-size: 36px;
+    background: transparent;
+}
+.food-row{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.food-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+.food-price{
+    margin-left: auto;
+    margin-right: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.food-counter{
+    display: flex;
+    align-items: center;
+}
+.counter-button{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 39px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #40A9FF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #40A9FF;
+}
+.counter{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-pricetag{
+    color: white;
+    background: #262626;
+    border-radius: 5px;
+    padding:15px 20px;
+}
+.footer-buttons{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,254 @@
+@media(max-width:1366px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo {
+        background-position: center right -150px;
+        background-size: 450px;
+    }
+
+    .card-info,
+    .rating,
+    .price,
+    .category {
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .promo {
+        padding: 50px;
+        background-size: 380px;
+        background-position: center right -150px;
+    }
+
+    .promo-title {
+        font-size: 34px;
+    }
+
+    .promo-text {
+        max-width: 400px;
+        font-size: 18px;
+    }
+
+    .card {
+        flex-basis: 48%;
+    }
+
+    .footer-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .card-text {
+        padding: 20px 15px;
+    }
+
+    .card-info {
+        flex-wrap: wrap;
+    }
+
+    .card .rating {
+        flex-basis: 100%;
+    }
+
+    .card-title {
+        font-size: 16px
+    }
+
+    .promo {
+        background-size: 300px;
+        background-position: center right -125px;
+    }
+
+    .promo-title {
+        line-height: 1.4;
+        font-size: 24px;
+    }
+
+    .promo-text {
+        max-width: 300px;
+        font-size: 14px;
+    }
+
+    .card-price-bold {
+        margin-left: 15px;
+    }
+
+    .ingredients {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container {
+        width: 95%;
+    }
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .header .address-input {
+        margin-top: 15px;
+        order: 5;
+        flex: 1;
+    }
+
+    .promo {
+        background-image: none;
+    }
+
+    .promo-title {
+        margin-bottom: 10px;
+    }
+
+    .promo-text {
+        max-width: 320px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .card {
+        flex-basis: 100%;
+    }
+
+    .card-imge {
+        height: 280px;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-block {
+        align-items: flex-start;
+
+    }
+
+    .footer-nav {
+        margin-right: 0;
+        margin-left: 0px;
+        order: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-right: 15px;
+        order: 1;
+    }
+
+    .social-links {
+        order: 2;
+    }
+
+    .section-title {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width:480px) {
+    .button-text {
+        display: none;
+    }
+
+    .button-icon {
+        margin: 0
+    }
+
+    .button {
+        min-height: 40px;
+    }
+
+    .promo {
+        padding: 20px;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer-block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+        order: 0;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-link:not(:last-child) {
+        margin-right: 0;
+    }
+    .modal-header{
+        margin-bottom: 20px;
+    }
+    .modal-body{
+        margin-bottom: 20px;
+    }
+    .modal-title{
+        font-size: 30px;
+    }
+    .food-name{
+        white-space: nowrap;
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    
+    .food-price{
+        font-size: 14px;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+    .counter-button{
+        width: 25px;
+        height: 25px;
+    }
+    .counter{
+        font-size: 12px;
+    }
+    .close{
+        font-size: 30px;
+    }
+    .modal-pricetag{
+        white-space: nowrap;
+        padding:10px 10px;
+    }
+    .footer-buttons{
+        display: block;
+    }
+    .modal-footer-butt{
+        margin:10px auto;
+        padding:5px 12px;
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 100px;
+    }
+}
